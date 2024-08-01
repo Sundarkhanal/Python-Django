@@ -1,0 +1,5 @@
+courses.append('english')
+# courses.insert(0,'Web')
+# courses.insert(1,'Account')
+# courses.insert(2,'Web')
+# print(courses)
