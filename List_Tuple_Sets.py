@@ -54,3 +54,16 @@ num = [1,2,3,4,5]
 print(max(num))
 print(min(num))
 print (sum(num))
+
+courses = ['math', 'science', 'nepali']
+for item in courses :
+    print(item)
+
+courses = ['math', 'science', 'nepali']
+for index, courses in enumerate(courses) :
+    print(index, courses)
+
+
+
+
+
