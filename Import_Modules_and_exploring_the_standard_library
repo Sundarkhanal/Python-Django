@@ -1,0 +1,58 @@
+import my_module
+
+courses = ['History', 'math', 'science', 'english']
+
+index = my_module.find_index(courses, 'math')
+print(index)
+
+
+# from my_module import find_index
+courses = ['History', 'math', 'science', 'english']
+index = find_index(courses, 'History')
+print(index)
+
+
+# #for accessing test string
+from my_module import find_index, test
+import sys
+courses = ['History', 'math', 'science', 'english']
+index  = find_index(courses,'math')
+print(index)
+print(test)
+print(sys.path)   # checking path
+
+
+#for importing values from standard library
+import random
+courses = ['History', 'math', 'science', 'english']
+
+random_choice = random.choice(courses)
+print(random_choice)
+
+
+# importing math module
+ 
+import math
+courses = ['History', 'math', 'science', 'english']
+rads = math.radians(90)
+print(math.sin(rads))
+print(math.cos(rads))
+
+#importing date time and calender
+
+import datetime
+import calendar
+today = datetime.date.today()
+print(today)
+print(calendar.isleap(2020))
+print(calendar.isleap(2017))
+
+
+# importing os
+
+import os
+print(os.getcwd())
+print(os.__file__) # printing file location by dunder file method __ => dunder
+
+
+
